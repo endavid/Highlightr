@@ -16,8 +16,11 @@ Takes your lame string with code and returns a NSAttributtedString with proper s
 1. Click the **File** menu, select **Add Packages…**
 1. Enter `https://github.com/raspu/Highlightr/` into the *Search or Enter Package URL* search field
 1. Link **Highlightr** to your application target
+	1. Select the (app) target
+	1. On the General tab, scroll down to Frameworks, Libraries, and Embedded Content
+	1. Click +, "Add Other...", "Add Package Dependency..."
 
-Finally, add `import MarkdownUI` to your source code.
+Finally, add `import Highlightr` to your source code.
  
 ### CocoaPods & Carthage
 CocoaPods & Carthage are no longer supported.
