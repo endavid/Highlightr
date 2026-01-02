@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Highlightr
 
 struct ContentView: View {
     @State private var text: NSAttributedString
