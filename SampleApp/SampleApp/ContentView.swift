@@ -14,7 +14,7 @@ struct ContentView: View {
 
     init() {
         let highlightr = Highlightr()!
-        highlightr.setTheme(to: "railscasts")
+        highlightr.setTheme(to: "pojoaque")
         let fontSize: CGFloat = 8
         highlightr.theme.codeFont = highlightr.theme.codeFont.withSize(fontSize)
         highlightr.theme.boldCodeFont = highlightr.theme.boldCodeFont.withSize(fontSize)
